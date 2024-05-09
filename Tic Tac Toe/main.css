@@ -1,61 +1,60 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-color: gray;
-    text-align: center;
+body {
+  background-color: gray;
+  text-align: center;
 }
-.container{
-    height: 70vh;
-    display: flex;
+.container {
+  height: 70vh;
+  display: flex;
   justify-content: center;
- align-items: center; /*which is useful if you only want to center individual elements on the page */
+  align-items: center; /*which is useful if you only want to center individual elements on the page */
 }
-.game{
-    height: 60vmin;
-    width: 60vmin;
-    display : flex; /*proper alignment in line  */
-    flex-wrap: wrap ; /*wrap flex item to multiple lines */
-    justify-content: center;/*bting content center */
-    align-items: center;
-    gap:1.5vmin;/*provide gap between buttons within in game container height and width equal */
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex; /*proper alignment in line  */
+  flex-wrap: wrap; /*wrap flex item to multiple lines */
+  justify-content: center; /*bting content center */
+  align-items: center;
+  gap: 1.5vmin; /*provide gap between buttons within in game container height and width equal */
 }
-.box{
-    height: 18vmin;
-    width: 18vmin;
-    border-radius:1rem;/*Rem (short for “root-em”) units dictate an element's font size relative to the size of the root element*/
-    box-shadow: 0 0 .5rem black; /*These are the values for the shadow. They represent the horizontal offset, vertical offset, blur radius, and color of the shadow respectively.*/
-    font-size: 8vmin;/* takes vmin of height and width of box*/
-    color: brown;
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem; /*Rem (short for “root-em”) units dictate an element's font size relative to the size of the root element*/
+  box-shadow: 0 0 0.5rem black; /*These are the values for the shadow. They represent the horizontal offset, vertical offset, blur radius, and color of the shadow respectively.*/
+  font-size: 8vmin; /* takes vmin of height and width of box*/
+  color: brown;
 }
-.reset{
-    padding: .5rem;
-    background-color: black;
-    color: white;
-    border-radius: .4rem;
-    border: none;/*remove some extra stuff left on border */
+.reset {
+  padding: 0.5rem;
+  background-color: black;
+  color: white;
+  border-radius: 0.4rem;
+  border: none; /*remove some extra stuff left on border */
 }
-#newgame{
-    padding: .5rem;
-    background-color: black;
-    color: white;
-    border-radius: .4rem;
-    border: none;/*remove some extra stuff left on border */
+#newgame {
+  padding: 0.5rem;
+  background-color: black;
+  color: white;
+  border-radius: 0.4rem;
+  border: none; /*remove some extra stuff left on border */
 }
-#msg{
-    color: brown;
-    font-size: 8vmin;
+#msg {
+  color: brown;
+  font-size: 8vmin;
 }
-.winner{
-   height: 100vmin;
-   display: flex;
-   justify-content: center;
-   align-items: center;            /*fata huva css ko center me original ka values apply krti he*/
-   flex-direction: column;
-   gap: 5rem;
- 
+.winner {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center; /*fata huva css ko center me original ka values apply krti he*/
+  flex-direction: column;
+  gap: 5rem;
 }
-.hide{
-    display: none;
+.hide {
+  display: none;
 }
