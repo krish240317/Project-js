@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    background-color: rgb(31, 31, 56);
+    color: white;
+    height: 5rem;
+    line-height: 5rem;/*trick to bring text center in verticle also (give line height same as height)*/ 
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* it means on ggoin on that container */
+.choice:hover{
+    /* opacity: 0.5;he opacity-level describes the transparency-level */
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);/* so that on hover it will show black circle around*/
+    }
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;/* is used to specify how an <img> or <video> should be resized to fit its container.*/
+    border-radius: 50%;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem ;
+    gap: 3rem;
+    
+}
+.score_board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    margin-top:3rem ;
+    gap: 5rem;/* provide gap between its elements */
+
+}
+#user_score,#comp_score{
+    font-size: 5rem;
+}
+.msg_container{
+    margin-top: 5rem;
+
+}
+#msg{
+    background-color: black;
+    color: #fff;
+    font-size: 2rem;
+    display: inline;/* not show whole line just show background colour in which there is words*/
+    /* justify-content: center;
+    align-items: center; */
+    padding: 1rem;/*used to generate space around an element's content, inside of any defined borders*/
+    border-radius: 1rem;
+}
